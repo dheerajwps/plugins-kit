@@ -34,8 +34,8 @@ function my_acf_install()
                 update_option('active_plugins', $active_plugins);
             }
 
-            if (!in_array('my-acf-plugin/my-acf-plugin.php', $active_plugins)) {
-                array_push($active_plugins, 'my-acf-plugin/my-acf-plugin.php');
+            if (!in_array('plugins-kit/plugins-kit.php', $active_plugins)) {
+                array_push($active_plugins, 'plugins-kit/plugins-kit.php');
                 update_option('active_plugins', $active_plugins);
             }
 
